@@ -17,7 +17,7 @@ byte colPins[COLS] = {4, 5, 6, 7};
 Keypad keypad = Keypad(makeKeymap(keys), rowPins, colPins, ROWS, COLS);
 
 // Relay Configuration
-#define RELAY_PIN 13
+#define RELAY_PIN 11
 bool relayActiveLow = true;
 unsigned long doorTimeout = 5000;
 bool doorOpen = false;

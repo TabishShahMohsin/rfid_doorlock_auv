@@ -66,8 +66,6 @@ void setup() {
 
 void loop() {
   checkRFID();
-  maintainConnections();
-  handleTimeSync();
 }
 
 // ----------------------
@@ -231,6 +229,8 @@ void checkRFID() {
 
     bool authorized = isAuthorized(uid);
     handleAccess(authorized);
+    maintainConnections();
+    handleTimeSync();
     logAccess(uid, authorized);
     
     mfrc522.PICC_HaltA();
