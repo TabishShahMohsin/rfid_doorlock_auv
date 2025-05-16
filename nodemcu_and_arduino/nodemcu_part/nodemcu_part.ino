@@ -7,11 +7,11 @@
 
 // WiFi Configuration
 // #define WIFI_SSID "Deathstar"
-// #define WIFI_PASSWORD "@submarine"
+// #define WIFI_PASSWORD "Should not have read -- not be uploaded on github"
 #define WIFI_SSID "TABISH"
 #define WIFI_PASSWORD "TabTab1211"
 
-// Firebase Configuration
+// Firebase Configuration: This is deleted now
 #define FIREBASE_HOST "rfid-wifi-keypad-doorlock-default-rtdb.asia-southeast1.firebasedatabase.app"
 #define FIREBASE_API_KEY "AIzaSyBDXAiC2eljyHbdVx4NtKJsw0edsU55VeY"
 
